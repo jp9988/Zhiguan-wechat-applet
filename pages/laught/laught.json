@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle":"black",
+  "navigationBarTitleText": "小段子",
+  "enablePullDownRefresh":true,
+  "backgroundColor":"#fff",
+  "backgroundTextStyle":"dark"
+}

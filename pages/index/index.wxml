@@ -1,0 +1,11 @@
+<block wx:for="{{content}}" wx:for-item="item">
+		<view class="post-container">
+			<text class="post-title">{{item.title}}</text>
+			<image src="{{item.imgsrc}}" class="post-image" data-src="{{item.imgsrc}}" catchtap="ViewPostImage"></image>
+			<text class="post-content">{{item.digest}}</text>
+			<view class="post-source">
+				<text class="source">{{item.source}}</text>
+        <text class="time">{{item.mtime}}</text>
+			</view>
+		</view>
+</block>

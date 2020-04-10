@@ -1,0 +1,27 @@
+<view class="container">
+	<view class="right">
+		<text class="wyy">网易云热评</text>
+		<view class="hor"></view>
+	</view>
+	<view class="center"></view>
+	<view class="center-as">
+		<view class="as-center">
+			<view class="content-source">
+				<text class="content" catchtap="onContentTap">{{detail.content}}</text>
+				<text class="source">来自网易云音乐--</text>
+				<text class="source-author">{{detail.source}}</text>
+			</view>
+		</view>
+		<view class="sjx"></view>
+		<view class="di"></view>
+		<view class="gao"></view>
+		<view class="xie"></view>
+		<view class="hidden" wx:if="{{textFlag}}" catchtap="onContentTap">
+			<view class="content-source">
+				<text class="contentMore" catchtap="onContentTap">{{detail.content}}</text>
+				<text class="source">来自网易云音乐--</text>
+				<text class="source-author">{{detail.source}}</text>
+			</view>
+		</view>
+	</view>
+</view>

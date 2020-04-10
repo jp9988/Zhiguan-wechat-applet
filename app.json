@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comment/comment",
+    "pages/laught/laught",
+    "pages/dictionary/dictionary"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"/images/new.png",
+        "selectedIconPath":"/images/new-sel.png"
+      },
+      {
+        "pagePath":"pages/comment/comment",
+        "iconPath":"/images/wyy.png",
+        "selectedIconPath":"/images/wyy-sel.png"
+      },
+      {
+        "pagePath":"pages/laught/laught",
+        "iconPath":"/images/laught.png",
+        "selectedIconPath":"/images/laught-sel.png"
+      },
+      {
+        "pagePath":"pages/dictionary/dictionary",
+        "iconPath":"/images/dictionary.png",
+        "selectedIconPath":"/images/dictionary-sel.png"
+      }
+    ],
+    "borderStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,21 @@
+<view class="body">
+  <view class="search">
+    <icon type="search" size="13" class="search-img"></icon>
+    <input type="text" placeholder="马到成功" placeholder-class="placeholder" bindfocus="onBindfocus" bindconfirm="onBindChange" value="{{inputvalue}}"></input>
+    <image src="../../images/x.png" bindtap="onCancelImgTap" class="xx-img" wx:if="{{searchShow}}"></image>
+  </view>
+  <view class="content" wx:if="{{contentShow}}">
+    <text class="text">成语：马到成功</text>
+    <text class="text">拼音：mǎ dào chéng gōng</text>
+    <text class="text">典故：形容工作刚开始就取得成功。</text>
+    <text class="text">出处：元·无名氏《小尉迟》第二折：“那老尉迟这一去，马到成功。”</text>
+    <text class="text">范例：只要不轻敌，相信你们一定会～。</text>
+  </view>
+  <view class="content-show" wx:if="{{searchShow}}">
+    <text class="text">成语：{{content.chengyu}}</text>
+    <text class="text">拼音：{{content.pinyin}}</text>
+    <text class="text">典故：{{content.diangu}}</text>
+    <text class="text">出处：{{content.chuchu}}</text>
+    <text class="text">范例：{{content.fanli}}</text>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<view class="container">
+  <text class="content">{{value.content}}</text>
+  <text class="author">{{value.author}}</text>
+</view>

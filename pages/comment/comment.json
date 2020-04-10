@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle":"black",
+  "navigationBarTitleText": "网易云热评",
+  "enablePullDownRefresh":true,
+  "backgroundColor":"#fff",
+  "backgroundTextStyle":"dark"
+}
